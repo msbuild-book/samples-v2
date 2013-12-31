@@ -4,7 +4,7 @@
     
     <DefaultName>project.proj</DefaultName>
     <Name>HelloWorld</Name>
-    <Description>Hello World MSBuild Sample</Description>    
+    <Description>Hello World MSBuild Sample</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>

@@ -84,16 +84,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cover-templates_120x120.png">
+    <EmbeddedResource Include="cover-templates_120x120.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="cover-templates_475x475.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="cover-templates_475x475.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
+    </EmbeddedResource>
     <Content Include="ItemTemplates\Samples\Chapter 1\ConditionExample\_Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Samples\Chapter 1\HelloWorld\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Samples\Chapter 1\HelloWorld\_Definitions\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ItemTemplates\Samples\Chapter 1\ItemsSimple\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Samples\Chapter 1\MetadataExample\src\one.txt" />
     <Content Include="ItemTemplates\Samples\Chapter 1\MetadataExample\_Definitions\CSharp.vstemplate" />
@@ -118,6 +118,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="TemplateBuilder">
       <HintPath>..\packages\TemplateBuilder.1.0.3.40-beta\lib\TemplateBuilder.dll</HintPath>
     </Reference>
