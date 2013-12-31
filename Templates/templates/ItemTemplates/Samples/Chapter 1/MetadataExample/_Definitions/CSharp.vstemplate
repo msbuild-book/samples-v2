@@ -1,0 +1,18 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>project.proj</DefaultName>
+    <Name>Item sample (simple)</Name>
+    <Description>Basic sample for item templates</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="false" TargetFileName="Class1.cs">Class1.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="false" TargetFileName="Class2.cs">Class2.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="false" TargetFileName="Class3.cs">Class3.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="false" TargetFileName="Class4.cs">Class4.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="false" TargetFileName="src\one.txt">src\one.txt</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="templates\ItemTemplates\Samples\Chapter 1\ConditionExample\_Definitions\CSharp.vstemplate" Name="Conditions sample" Description="Shows how to use conditions" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="templates\ItemTemplates\Samples\Chapter 1\HelloWorld\_Definitions\CSharp.vstemplate" Name="HelloWorld" Description="Hello World MSBuild Sample" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="templates\ItemTemplates\Samples\Chapter 1\ItemsSimple\_Definitions\CSharp.vstemplate" Name="Item sample (simple)" Description="Basic sample for item templates" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="templates\ItemTemplates\Samples\Chapter 1\MetadataExample\_Definitions\CSharp.vstemplate" Name="Item sample (simple)" Description="Basic sample for item templates" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="templates\ItemTemplates\Samples\Chapter 1\NestedProperties\_Definitions\CSharp.vstemplate" Name="Nested properties sample" Description="Shows how to use nested properties in MSBuild." ProjectType="CSharp" ProjectSubType="" />
+  </ItemTemplates>
+  <ProjectTemplates />
+  <Snippets />
+</TemplateReport>

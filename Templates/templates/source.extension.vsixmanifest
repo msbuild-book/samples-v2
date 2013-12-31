@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="templates..5bdacb95-d969-438a-a290-a9ce8c6a7bd4" Version="1.0" Language="en-US" Publisher="Sayed Ibrahim Hashimi" />
+    <DisplayName>Inside MSBuild Book Samples</DisplayName>
+    <Description xml:space="preserve">Samples for the Second Edition of the book Inside the Microsoft Build Engine.</Description>
+    <Icon>cover-templates_120x120.png</Icon>
+    <PreviewImage>cover-templates_475x475.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+  </Assets>
+</PackageManifest>
